@@ -8,8 +8,7 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ## Inicio
 
-### Materiales
-
+## :electric_plug: Materiales
 * Microcontrolador
 
 ## :black_circle: Software IDE
