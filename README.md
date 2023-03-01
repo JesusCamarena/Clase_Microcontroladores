@@ -29,7 +29,7 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 ## :interrobang: Ayuda
 
 ## :busts_in_silhouette: Autores
-* Jesus Camarena
+* [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
 * Eduardo Reyna
 
 ## :ballot_box_with_check: Historial de versiones
