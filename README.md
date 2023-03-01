@@ -29,8 +29,8 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 ## :interrobang: Ayuda
 
 ## :busts_in_silhouette: Autores
-Jesus Camarena
-Eduardo Reyna
+* Jesus Camarena
+* Eduardo Reyna
 
 ## :ballot_box_with_check: Historial de versiones
 * 1.0
