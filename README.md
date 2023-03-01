@@ -6,7 +6,7 @@ El repositorio de clases de microcontroladores contiene recursos, ejemplos de pr
 ## :globe_with_meridians: Página web
 https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
-## Inicio
+## :large_orange_diamond: Inicio
 
 ## :electric_plug: Materiales
 * Microcontrolador
