@@ -1,9 +1,9 @@
-# Clase_Microcontroladores
+# :closed_book: Clase_Microcontroladores
 
-## Descripción
+## :large_blue_diamond: Descripción
 El repositorio de clases de microcontroladores contiene recursos, ejemplos de programación y archivos de diseño relacionados con los microcontroladores. Está enfocado en ayudar a estudiantes y desarrolladores a aprender y desarrollar diferentes proyectos y aplicaciones.
 
-## Página web
+## :globe_with_meridians: Página web
 https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ## Inicio
@@ -12,30 +12,28 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 * Microcontrolador
 
-### Instalación
-## Software IDE
+## :black_circle: Software IDE
 * Microchip Studio
 * Avr Studio
 * Mplab
 * Visual Studio Code + Plataformio
 * Arduino IDE
 
-## Software EDA
+## :large_blue_circle: Software EDA
 * Proteus Design Suite
 * Kicad
 
-## Software Modelado Electrónico
+## :red_circle: Software Modelado Electrónico
 * Fritzing
 * TinkerCad
 
-## Ayuda
+## :interrobang: Ayuda
 
-
-## Autores
+## :busts_in_silhouette: Autores
 Jesus Camarena
 Eduardo Reyna
 
-## Historial de versiones
+## :ballot_box_with_check: Historial de versiones
 * 1.0
     * Initial Release
 
@@ -43,7 +41,7 @@ Eduardo Reyna
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-## Agradecimientos
+## :speech_balloon: Agradecimientos
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
