@@ -8,8 +8,10 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ## :large_orange_diamond: Inicio
 
-### :electric_plug: Materiales
-* Microcontrolador
+### :electric_plug: Microcontroladores
+* Atmega328p empaquetado DIP
+* Tarjeta de desarrollo Arduino UNO  (Atmega328p DIP)
+* Tarjeta de desarrollo Arduino Nano (Atmega328p TQFP)
 
 ### :black_circle: Software IDE
 * Microchip Studio
