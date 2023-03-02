@@ -22,17 +22,15 @@ int main(void)//se ejecuta una vez (setup)
 	       //76543210 numero de los bits del registro
 	DDRB  = 0b00100000; //PORTB5 se declara como salida
 	
-//PORTX =  Registro de 8 bits donde se declara si est√° encendido o apagado
+//PORTX =  Registro de 8 bits donde se declara si est· encendido o apagado
 //0b =  dato en binario
 	PORTB = 0b00100000; //PORTB5 se enciende
 	
-                //76543210
-	DDRC  = 0b00000100; //PORTC2 se declara como salida
-	PORTC = 0b00000100; //PORTC2 se enciende
 //-----------------while---------------------//	
     while (1) //bucle infinito (loop)
     {
 		
     }//Fin_while
 }//Fin_main
+
 

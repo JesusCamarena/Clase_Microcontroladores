@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>Ej2HolaMundo</AssemblyName>
-    <Name>Ej2HolaMundo</Name>
-    <RootNamespace>Ej2HolaMundo</RootNamespace>
+    <AssemblyName>HolaMundo</AssemblyName>
+    <Name>HolaMundo</Name>
+    <RootNamespace>HolaMundo</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
