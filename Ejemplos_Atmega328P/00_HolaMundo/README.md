@@ -21,7 +21,7 @@ https://www.notion.so/didyde/Configuraci-n-de-Puertos-y-registros-cdcd0984fd4547
 
 ### :red_circle: Software Modelado Electrónico
 * Fritzing
-* TinkerCad
+* TinkerCad con Tarjeta de desarrollo Arduino Uno
 * https://www.tinkercad.com/things/6VEPsdMs4qr
 
 ## :interrobang: Ayuda
