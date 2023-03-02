@@ -1,5 +1,5 @@
 /*
- * Ej2HolaMundo.c
+ * 2HolaMundo.c
  *
  * Created: 09/02/2023 10:52:05 a. m.
  * Author : JesusCamarena
@@ -22,7 +22,7 @@ int main(void)//se ejecuta una vez (setup)
 	       //76543210 numero de los bits del registro
 	DDRB  = 0b00100000; //PORTB5 se declara como salida
 	
-//PORTX =  Registro de 8 bits donde se declara si est· encendido o apagado
+//PORTX =  Registro de 8 bits donde se declara si est√° encendido o apagado
 //0b =  dato en binario
 	PORTB = 0b00100000; //PORTB5 se enciende
 	
