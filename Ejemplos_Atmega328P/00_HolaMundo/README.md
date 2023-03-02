@@ -8,18 +8,16 @@ https://www.notion.so/didyde/Configuraci-n-de-Puertos-y-registros-cdcd0984fd4547
 ## :large_orange_diamond: Inicio
 
 ### :electric_plug: Materiales
-* Microcontrolador
+* Microcontrolador atmega328p Empaquetado DIP
+* Tarjeta de desarrollo Arduino Uno Empaquetado DIP
+* Tarjeta de desarrollo Arduino Nano Empaquetado TQFP
 
 ### :black_circle: Software IDE
 * Microchip Studio
-* Avr Studio
-* Mplab
-* Visual Studio Code + Plataformio
 * Arduino IDE
 
 ### :large_blue_circle: Software EDA
 * Proteus Design Suite
-* Kicad
 
 ### :red_circle: Software Modelado Electrónico
 * Fritzing
