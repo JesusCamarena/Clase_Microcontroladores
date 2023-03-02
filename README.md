@@ -26,8 +26,10 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 * Fritzing
 * TinkerCad
 
-### :white_circle:: Lenguajes de programación utilizados
-*
+### :white_circle: Lenguajes de programación utilizados
+* C
+* C++
+* Assambler
 
 
 ## :interrobang: Ayuda
