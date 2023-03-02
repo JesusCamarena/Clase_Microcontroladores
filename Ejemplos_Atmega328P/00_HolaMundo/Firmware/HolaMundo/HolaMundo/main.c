@@ -1,5 +1,5 @@
 /*
- * 2HolaMundo.c
+ * HolaMundo.c
  *
  * Created: 09/02/2023 10:52:05 a. m.
  * Author : JesusCamarena
