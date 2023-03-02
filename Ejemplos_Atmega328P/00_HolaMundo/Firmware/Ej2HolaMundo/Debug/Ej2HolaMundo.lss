@@ -21,9 +21,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_frame  00000024  00000000  00000000  00000fd4  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    0000036a  00000000  00000000  00000ff8  2**0
+  9 .debug_str    00000373  00000000  00000000  00000ff8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_ranges 00000010  00000000  00000000  00001362  2**0
+ 10 .debug_ranges 00000010  00000000  00000000  0000136b  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -70,22 +70,26 @@ Disassembly of section .text:
   7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
 
 00000080 <main>:
+{           
 
-
-
-int main(void)//setup 
-{           //76543210
-	DDRB  = 0b00100000; //Declara como salida
+//DDRX =  Registro de 8 bits donde se declara si es una entrada o salida
+//0b =  dato en binario
+			//76543210 numero de los bits del registro
+	DDRB  = 0b00100000; //PORTB5 se declara como salida
   80:	80 e2       	ldi	r24, 0x20	; 32
   82:	84 b9       	out	0x04, r24	; 4
-	PORTB = 0x00;// Enciende
-  84:	15 b8       	out	0x05, r1	; 5
+	
+//PORTX =  Registro de 8 bits donde se declara si esta encendido o apagado
+//0b =  dato en binario
+	PORTB = 0b00100000; //PORTB5 se enciende
+  84:	85 b9       	out	0x05, r24	; 5
+	
 	        //76543210
-	DDRC  = 0b00000100;
+	DDRC  = 0b00000100; //PORTC2 se declara como salida
   86:	84 e0       	ldi	r24, 0x04	; 4
   88:	87 b9       	out	0x07, r24	; 7
-	PORTC = 0x00;
-  8a:	18 b8       	out	0x08, r1	; 8
+	PORTC = 0b00000100; //PORTC2 se enciende
+  8a:	88 b9       	out	0x08, r24	; 8
   8c:	ff cf       	rjmp	.-2      	; 0x8c <main+0xc>
 
 0000008e <_exit>:
