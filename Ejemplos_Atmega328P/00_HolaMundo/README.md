@@ -1,6 +1,7 @@
 # :closed_book: Clase_Microcontroladores
 
 ## :large_blue_diamond: Descripción
+Ejemplo básico que puede ser utilizado como punto de partida para proyectos más complejos que involucren el microcontrolador Atmega328p. Con este código, los desarrolladores pueden aprender a controlar el hardware del microcontrolador y comenzar a crear soluciones más avanzadas.
 
 ## :globe_with_meridians: Página web
 https://www.notion.so/didyde/Configuraci-n-de-Puertos-y-registros-cdcd0984fd454707979569c5bac33021
