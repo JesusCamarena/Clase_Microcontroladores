@@ -19,7 +19,7 @@ int main(void)//se ejecuta una vez (setup)
 {           
 //DDRX =  Registro de 8 bits donde se declara si es una entrada o salida
 //0b =  dato en binario
-	       //76543210 número de los bits del registro
+	       //76543210 numero de los bits del registro
 	DDRB  = 0b00100000; //PORTB5 se declara como salida
 	
 //PORTX =  Registro de 8 bits donde se declara si está encendido o apagado
