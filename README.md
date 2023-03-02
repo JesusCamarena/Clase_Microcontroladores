@@ -8,21 +8,21 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ## :large_orange_diamond: Inicio
 
-## :electric_plug: Materiales
+### :electric_plug: Materiales
 * Microcontrolador
 
-## :black_circle: Software IDE
+### :black_circle: Software IDE
 * Microchip Studio
 * Avr Studio
 * Mplab
 * Visual Studio Code + Plataformio
 * Arduino IDE
 
-## :large_blue_circle: Software EDA
+### :large_blue_circle: Software EDA
 * Proteus Design Suite
 * Kicad
 
-## :red_circle: Software Modelado Electrónico
+### :red_circle: Software Modelado Electrónico
 * Fritzing
 * TinkerCad
 
