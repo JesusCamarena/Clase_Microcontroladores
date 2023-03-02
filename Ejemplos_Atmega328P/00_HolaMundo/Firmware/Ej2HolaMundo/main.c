@@ -26,7 +26,7 @@ int main(void)//se ejecuta una vez (setup)
 //0b =  dato en binario
 	PORTB = 0b00100000; //PORTB5 se enciende
 	
-            //76543210
+                //76543210
 	DDRC  = 0b00000100; //PORTC2 se declara como salida
 	PORTC = 0b00000100; //PORTC2 se enciende
 //-----------------while---------------------//	
