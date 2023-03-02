@@ -70,8 +70,8 @@ Disassembly of section .text:
   7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
 
 00000080 <main>:
+int main(void)//se ejecuta una vez (setup)
 {           
-
 //DDRX =  Registro de 8 bits donde se declara si es una entrada o salida
 //0b =  dato en binario
 			//76543210 numero de los bits del registro
@@ -84,7 +84,7 @@ Disassembly of section .text:
 	PORTB = 0b00100000; //PORTB5 se enciende
   84:	85 b9       	out	0x05, r24	; 5
 	
-	        //76543210
+            //76543210
 	DDRC  = 0b00000100; //PORTC2 se declara como salida
   86:	84 e0       	ldi	r24, 0x04	; 4
   88:	87 b9       	out	0x07, r24	; 7
