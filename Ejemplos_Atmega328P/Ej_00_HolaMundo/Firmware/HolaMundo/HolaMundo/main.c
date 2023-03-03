@@ -1,15 +1,15 @@
 /*
  * HolaMundo.c
- *
  * Created: 09/02/2023 10:52:05 a. m.
  * Author : JesusCamarena
  */ 
 
-//comentario corto
-//atmega328p
 /*
 	Comentario largooooooo
 */
+
+//comentario corto
+//atmega328p
 
 //--Bibliotecas
 #include <avr/io.h> //I/O del AVR
@@ -31,6 +31,5 @@ int main(void)//se ejecuta una vez (setup)
     {
 		
     }//Fin_while
+	
 }//Fin_main
-
-
