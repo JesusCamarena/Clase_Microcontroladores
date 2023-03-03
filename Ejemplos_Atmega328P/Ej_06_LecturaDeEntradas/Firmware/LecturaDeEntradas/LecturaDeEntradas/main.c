@@ -48,19 +48,18 @@ int main(void)
     while (1) 
     {
 	//0b00000001 = 0b00000001
-	   //0bXXXXXXXX	& 0b00001000
-	   //0b0000X000	& 0b00001000
-	   //0b00000000	& 0b00001000 = 0
-	  //0b00000100	& 0b00001000 = 1
+//0bXXXXXXXX & 0b00000001 = 0b0000000X
+//0bXXXXXXX0 & 0b00000001 = 0b00000000
+//0bXXXXXXX1 & 0b00000001 = 0b00000001
 		if(BTN_PINX & 0b00010000)
 		{
-			LED_PORTX |= (1<<LED_0);
+			LED_PORTX |= 0b00010000;//Enciendo LED_0
 		}
 		else
 		{
-			LED_PORTX &= ~(1<<LED_0);
+			LED_PORTX &= ~(1<<LED_0);//Apago LED_0
 		}
-		if(BTN_PINX & (1<<BTN_1))
+		if(BTN_PINX & (1<<BTN_1))//BTN_1 es uno
 		{
 			LED_PORTX |= (1<<LED_1);
 		}
@@ -68,8 +67,8 @@ int main(void)
 		{
 			LED_PORTX &= ~(1<<LED_1);
 		}
-    }
-}
+    }//Fin_while
+}//Fin_main
 
 void ports_init(void)
 {

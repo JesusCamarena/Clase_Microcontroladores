@@ -1,6 +1,6 @@
 //" ¡No copies y pegues el código, analízalo e inspirate en el! "
 /*************************************************************************
- *   Copyright (C) 2022 by JesusCamarena                                *
+ *   Copyright (C) 2022 by JesusCamarena                                 *
  *   jesus.garzacmn@uanl.edu.mx                                          *
  *   Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0)           *
  *   https://creativecommons.org/licenses/by-nc-sa/3.0/                  *
@@ -31,7 +31,7 @@ int main(void)
 // ------ Event loop ------ //
     while (1) 
     {
-	//0b00000001 = 0b00000001
+ //0b00000100 = 0b00000100
 		PORTB = PIND;
     }
 }
@@ -39,10 +39,11 @@ int main(void)
 void ports_init(void)
 {
 //--Definir Entradas y Salidas
-//-Inputs
+//-Inputs (colocar 0)
 	DDRD  = DDRD & ~(1<<PORTD4);// solo PORTD4 es una entrada
 	DDRD &= ~(1<<PORTD3);// solo PORTD3 es una entrada
-//-Outputs
+	
+//-Outputs (colocar 1)
 	DDRB  = DDRB |  (1<<PORTB4);// solo PORTB4 es una salida
 	DDRB |=  (1<<PORTB3);// solo PORTB4 es una salida
 	

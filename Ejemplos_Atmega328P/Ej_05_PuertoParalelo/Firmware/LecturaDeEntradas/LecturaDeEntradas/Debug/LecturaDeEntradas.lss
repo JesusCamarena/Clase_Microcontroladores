@@ -74,7 +74,7 @@ Disassembly of section .text:
 void ports_init(void)
 {
 //--Definir Entradas y Salidas
-//-Inputs
+//-Inputs (colocar 0)
 	DDRD  = DDRD & ~(1<<PORTD4);// solo PORTD4 es una entrada
   80:	8a b1       	in	r24, 0x0a	; 10
   82:	8f 7e       	andi	r24, 0xEF	; 239
@@ -83,7 +83,8 @@ void ports_init(void)
   86:	8a b1       	in	r24, 0x0a	; 10
   88:	87 7f       	andi	r24, 0xF7	; 247
   8a:	8a b9       	out	0x0a, r24	; 10
-//-Outputs
+	
+//-Outputs (colocar 1)
 	DDRB  = DDRB |  (1<<PORTB4);// solo PORTB4 es una salida
   8c:	84 b1       	in	r24, 0x04	; 4
   8e:	80 61       	ori	r24, 0x10	; 16
@@ -127,7 +128,7 @@ int main(void)
 // ------ Event loop ------ //
     while (1) 
     {
-	//0b00000001 = 0b00000001
+ //0b00000100 = 0b00000100
 		PORTB = PIND;
   b6:	89 b1       	in	r24, 0x09	; 9
   b8:	85 b9       	out	0x05, r24	; 5

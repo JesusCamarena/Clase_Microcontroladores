@@ -21,9 +21,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_frame  00000034  00000000  00000000  000010c0  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    0000039d  00000000  00000000  000010f4  2**0
+  9 .debug_str    000003a0  00000000  00000000  000010f4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_ranges 00000018  00000000  00000000  00001491  2**0
+ 10 .debug_ranges 00000018  00000000  00000000  00001494  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -124,16 +124,16 @@ int main(void)
 // -------- Inits --------- //	
     ports_init();//llama a la funcion
   b2:	0e 94 40 00 	call	0x80	; 0x80 <ports_init>
+    {
 	//0b00000001 = 0b00000001
-	   //0bXXXXXXXX	& 0b00001000
-	   //0b0000X000	& 0b00001000
-	   //0b00000000	& 0b00001000 = 0
-	  //0b00000100	& 0b00001000 = 1
+//0bXXXXXXXX & 0b00000001 = 0b0000000X
+//0bXXXXXXX0 & 0b00000001 = 0b00000000
+//0bXXXXXXX1 & 0b00000001 = 0b00000001
 		if(BTN_PINX & 0b00010000)
   b6:	4c 9b       	sbis	0x09, 4	; 9
   b8:	04 c0       	rjmp	.+8      	; 0xc2 <main+0x10>
 		{
-			LED_PORTX |= (1<<LED_0);
+			LED_PORTX |= 0b00010000;//Enciendo LED_0
   ba:	85 b1       	in	r24, 0x05	; 5
   bc:	80 61       	ori	r24, 0x10	; 16
   be:	85 b9       	out	0x05, r24	; 5
@@ -141,12 +141,12 @@ int main(void)
 		}
 		else
 		{
-			LED_PORTX &= ~(1<<LED_0);
+			LED_PORTX &= ~(1<<LED_0);//Apago LED_0
   c2:	85 b1       	in	r24, 0x05	; 5
   c4:	8f 7e       	andi	r24, 0xEF	; 239
   c6:	85 b9       	out	0x05, r24	; 5
 		}
-		if(BTN_PINX & (1<<BTN_1))
+		if(BTN_PINX & (1<<BTN_1))//BTN_1 es uno
   c8:	4b 9b       	sbis	0x09, 3	; 9
   ca:	04 c0       	rjmp	.+8      	; 0xd4 <main+0x22>
 		{
