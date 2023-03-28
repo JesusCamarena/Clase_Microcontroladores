@@ -12,13 +12,17 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 * Atmega328p empaquetado DIP
 * Tarjeta de desarrollo Arduino UNO  (Atmega328p DIP)
 * Tarjeta de desarrollo Arduino Nano (Atmega328p TQFP)
+* Tarjeta de desarrollo ESP-WROOM-32
+* Tarjeta De Desarrollo Arm Stm32f103c8t6 Stm32
 
 ### :black_circle: Software IDE
-* Microchip Studio
-* Avr Studio
-* Mplab
-* Visual Studio Code + Plataformio
-* Arduino IDE
+* [Microchip Studio (Atmega328p)](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+* [Avr Studio (Atmega328p)](https://www.arduino.cc/en/software)
+* Mplab (Atmega328p)
+* Visual Studio Code + Plataformio (Atmega328p) (Stm32) (ESP32)
+* Visual Studio Code + ESP-IDF (ESP32)
+* Arduino IDE (Atmega328p)
+* STM32CubeIDE (Stm32)
 
 ### :large_blue_circle: Software EDA
 * Proteus Design Suite
@@ -32,7 +36,6 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 * C
 * C++
 * Assambler
-
 
 ## :interrobang: Ayuda
 
