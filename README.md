@@ -17,11 +17,11 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ### :black_circle: Software IDE
 * [Microchip Studio (Atmega328p)](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
-* [Avr Studio (Atmega328p)](https://www.arduino.cc/en/software)
+* Avr Studio (Atmega328p)
 * Mplab (Atmega328p)
 * Visual Studio Code + Plataformio (Atmega328p) (Stm32) (ESP32)
 * Visual Studio Code + ESP-IDF (ESP32)
-* Arduino IDE (Atmega328p)
+* [Arduino IDE (Atmega328p)](https://www.arduino.cc/en/software)
 * STM32CubeIDE (Stm32)
 
 ### :large_blue_circle: Software EDA
