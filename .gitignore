@@ -51,8 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Compiled source #
-###################
+# Compiled source AVR
 *.xml
 *.cproj
 *.eep
@@ -64,3 +63,4 @@ dkms.conf
 *.d
 *.o
 *.mk
+*-atsuo
