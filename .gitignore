@@ -50,6 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
 
 # Compiled source AVR
 *.xml
@@ -64,3 +65,5 @@ dkms.conf
 *.o
 *.mk
 *-atsuo
+=======
+>>>>>>> parent of d4536d8 (gitignore)
