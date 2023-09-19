@@ -9,9 +9,10 @@
 *.lss
 *.map
 *.srec
+*.atsln
 *.xml
 *.cproj
-
+*.Makefile
 
 
 
