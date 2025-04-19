@@ -1,0 +1,22 @@
+# Compiled source #
+###################
+*.d
+*.o
+*.mk
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.srec
+*.atsln
+*.xml
+*.cproj
+*.Makefile
+
+
+
+
+
+
+
