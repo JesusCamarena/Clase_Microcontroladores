@@ -26,6 +26,7 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ### :large_blue_circle: Software EDA
 * Proteus Design Suite
+* EsayEDA
 * Kicad
 
 ### :red_circle: Software Modelado Electrónico
@@ -43,13 +44,13 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
 * [Eduardo Reyna](https://github.com/EduVR19)
 
-## :ballot_box_with_check: Historial de versiones
-* 1.0
-    * Initial Release
-
 ## Licencia
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Copyright (C) 2025 by Jesús D. Garza Camarena 
+jesus.garzacmn@uanl.edu.mx 
+Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0) 
+https://creativecommons.org/licenses/by-nc-sa/3.0/ 
 
 ## :speech_balloon: Agradecimientos
 
