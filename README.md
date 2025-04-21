@@ -42,7 +42,7 @@ https://www.notion.so/didyde/Microcontroladores-100eea9c3d76439db77cd249655a2e6b
 
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
-* [Eduardo Reyna](https://github.com/EduVR19)
+
 
 ## Licencia
 
@@ -53,6 +53,4 @@ Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0)
 https://creativecommons.org/licenses/by-nc-sa/3.0/ 
 
 ## :speech_balloon: Agradecimientos
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [Eduardo Reyna](https://github.com/EduVR19)
